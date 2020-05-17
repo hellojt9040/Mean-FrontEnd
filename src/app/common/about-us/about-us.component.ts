@@ -23,7 +23,7 @@ export class AboutUsComponent {
 
   }
 
-  onFilePicked(event: Event){
+  /* onFilePicked(event: Event){
     const file: File = (event.target as HTMLInputElement).files[0]
 
     const reader = new FileReader()
@@ -34,9 +34,9 @@ export class AboutUsComponent {
       this.uploadNewAvatar(this.uploadAvatar.value.avatar)
     }
     reader.readAsDataURL(file)
-  }
+  } */
 
   uploadNewAvatar(avatar:File){
-    this.userService.uploadNewAvatar({avatar})
+    //this.userService.uploadNewAvatar({avatar})
   }
 }

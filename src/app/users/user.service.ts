@@ -13,7 +13,7 @@ export class UserService {
 
   }
 
-  uploadNewAvatar(avatar:{avatar:File}){
+  /* uploadNewAvatar(avatar:{avatar:File}){
     const newAvatar = new FormData()
     newAvatar.append('avatar', avatar.avatar,)
 
@@ -23,7 +23,7 @@ export class UserService {
       },(error) => {
         console.log(error.message);
       })
-  }
+  } */
 
 
 
