@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiURL:"https://jt-mean-poc.herokuapp.com/api"
+  apiURL:"https://jt-mean-poc.herokuapp.com/api/"
 };
