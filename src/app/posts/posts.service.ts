@@ -1,4 +1,4 @@
-import { environment } from './../../environments/environment';
+import { environment } from './../../environments/environment.prod';
 import { Injectable } from '@angular/core';
 import { Post } from './post.model';
 import { Subject } from 'rxjs';
